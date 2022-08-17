@@ -50,7 +50,7 @@ if __name__ == '__main__':
     while True:
         data = get_data(mon)
         CO2_PPM.set(data[1])
-        curr_temp = int(round(data[2]*10, 0))/10
+        curr_temp = int(round(data[2]*10000, 0))/10000
         TEMPERATURE_C.set(curr_temp)
 
         # Temperature averaging
