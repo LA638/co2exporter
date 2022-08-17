@@ -309,7 +309,7 @@
             "uid": "${DS_PROMETHEUS}"
           },
           "editorMode": "code",
-          "expr": "temperature_c",
+          "expr": "avg_over_time(temperature_c[10s])",
           "interval": "",
           "legendFormat": "C°",
           "range": true,
@@ -390,13 +390,13 @@
     "list": []
   },
   "time": {
-    "from": "now-24h",
+    "from": "now-12h",
     "to": "now"
   },
   "timepicker": {},
   "timezone": "",
   "title": "CO₂ Monitor",
   "uid": "FDpLyAm4k",
-  "version": 4,
+  "version": 6,
   "weekStart": ""
 }
