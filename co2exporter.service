@@ -1,0 +1,13 @@
+[Unit]
+Description=CO2 monitoring exporter
+After=network.target
+
+[Service]
+ExecStart=/home/la638/projects/co2exporter/co2exporter.py
+WorkingDirectory=/home/la638/projects/co2exporter
+Restart=always
+User=la638
+
+[Install]
+WantedBy=multi-user.target
+
