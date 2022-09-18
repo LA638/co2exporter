@@ -189,8 +189,12 @@
                 "value": null
               },
               {
-                "color": "red",
+                "color": "orange",
                 "value": 800
+              },
+              {
+                "color": "red",
+                "value": 1200
               }
             ]
           }
@@ -409,6 +413,6 @@
   "timezone": "",
   "title": "CO₂ Monitor",
   "uid": "FDpLyAm4k",
-  "version": 18,
+  "version": 2,
   "weekStart": ""
 }
